@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+/* styles.css */
+
+.Pokedex {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Creates 4 equal columns */
+  gap: 20px; /* Adjust the gap between cards */
+}
+
+.Pokecard {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Add more styles as needed */
